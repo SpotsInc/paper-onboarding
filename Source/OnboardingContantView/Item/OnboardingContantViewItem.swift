@@ -167,7 +167,7 @@ private extension OnboardingContentViewItem {
     for attribute in [NSLayoutAttribute.width, NSLayoutAttribute.height] {
       imageView >>>- {
         $0.attribute = attribute
-        $0.constant  = 188
+        $0.constant  = UIScreen.main.bounds.height * 0.55
         return
       }
     }
